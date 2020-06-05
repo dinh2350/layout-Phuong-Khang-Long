@@ -1,0 +1,97 @@
+header.header section.header__content {
+  width: 96%;
+  margin: 0px auto;
+}
+
+header.header section.header__content div.header__content--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header.header section.header__content div.header__content--wrapper .header__left div.header__left--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.header section.header__content div.header__content--wrapper .header__left div.header__left--wrapper .header__logo img {
+  width: 180px;
+  height: 180px;
+}
+
+header.header section.header__content div.header__content--wrapper .header__left div.header__left--wrapper .header__info h4 {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+header.header section.header__content div.header__content--wrapper .header__left div.header__left--wrapper .header__info h2 {
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+header.header section.header__content div.header__content--wrapper .header__right h5 {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+header.header section.header__content div.header__content--wrapper .header__right ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+header.header section.header__content div.header__content--wrapper .header__right ul li p {
+  margin-left: 15px;
+}
+
+header.header section.header__content div.header__content--wrapper .header__right ul li img {
+  width: 20px;
+  height: 20px;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f1f1f1;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+main {
+  width: 90%;
+  margin: 0px auto;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/*# sourceMappingURL=main.css.map */
