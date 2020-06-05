@@ -1,0 +1,44 @@
+.partner {
+  .partner__title {
+    text-align: center;
+    color: #b40f6f;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+  }
+  .partner__container {
+    .partner__slick {
+      .partner__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          display: block;
+          width: 200px;
+          height: 200px;
+        }
+      }
+    }
+    .slick-prev {
+      transform: translateX(150%);
+    }
+    .slick-next {
+      transform: translateX(-150%);
+    }
+    .slick-arrow {
+      z-index: 1000;
+      width: 30px;
+      height: 30px;
+      &::before {
+        font-size: 30px;
+        color: #446084;
+      }
+      &:hover {
+        &::before {
+          color: #446084;
+        }
+      }
+    }
+  }
+}

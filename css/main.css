@@ -212,7 +212,6 @@ header.header section.header__nav nav ul li a {
 }
 
 .experience {
-  margin-bottom: 50vh;
   background-color: #ecd7fe;
   padding-bottom: 30px;
 }
@@ -279,6 +278,58 @@ header.header section.header__nav nav ul li a {
 
 .experience .experience__container .experience__item .experience__item--wrapper .experience__info h3 {
   margin: 10px 0px;
+}
+
+.partner .partner__title {
+  text-align: center;
+  color: #b40f6f;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.partner .partner__container .partner__slick .partner__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partner .partner__container .partner__slick .partner__item img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.partner .partner__container .slick-prev {
+  -webkit-transform: translateX(150%);
+          transform: translateX(150%);
+}
+
+.partner .partner__container .slick-next {
+  -webkit-transform: translateX(-150%);
+          transform: translateX(-150%);
+}
+
+.partner .partner__container .slick-arrow {
+  z-index: 1000;
+  width: 30px;
+  height: 30px;
+}
+
+.partner .partner__container .slick-arrow::before {
+  font-size: 30px;
+  color: #446084;
+}
+
+.partner .partner__container .slick-arrow:hover::before {
+  color: #446084;
 }
 
 html {
