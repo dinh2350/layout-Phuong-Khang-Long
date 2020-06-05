@@ -180,6 +180,37 @@ header.header section.header__nav nav ul li a {
   color: #446084;
 }
 
+.reason .reason__title {
+  text-align: center;
+  color: #b40f6f;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.reason .reason__container {
+  width: 90%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.reason .reason__container .reason__item .reason__image img {
+  width: 150px;
+  height: 150px;
+}
+
+.reason .reason__container .reason__item p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 html {
   font-size: 16px;
 }
