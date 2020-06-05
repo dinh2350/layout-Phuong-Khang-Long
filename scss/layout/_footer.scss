@@ -1,6 +1,4 @@
 footer.footer {
-  margin-bottom: 100vh;
-
   .footer__container {
     .footer__main {
       padding: 30px 0px;
@@ -44,6 +42,34 @@ footer.footer {
             img {
               width: 30px;
               height: 30px;
+            }
+          }
+        }
+      }
+    }
+    .footer__payments {
+      width: 96%;
+      margin: 0px auto;
+      padding: 30px 0px;
+      background-color: #fbfbfb;
+      &--wrapper {
+        display: flex;
+        .footer__payments--left {
+          width: 50%;
+          h3 {
+          }
+          img {
+            display: block;
+            width: 100%;
+          }
+        }
+        .footer__payments--right {
+          width: 50%;
+          text-align: right;
+          .footer__payments--img {
+            img {
+              width: 230px;
+              height: 87px;
             }
           }
         }

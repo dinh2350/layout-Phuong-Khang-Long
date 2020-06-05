@@ -433,10 +433,6 @@ header.header section.header__nav nav ul li a {
           box-shadow: inset 0px 0px 0px 20px red;
 }
 
-footer.footer {
-  margin-bottom: 100vh;
-}
-
 footer.footer .footer__container .footer__main {
   padding: 30px 0px;
   display: -webkit-box;
@@ -496,6 +492,38 @@ footer.footer .footer__container .footer__main .footer__category .footer__connec
 footer.footer .footer__container .footer__main .footer__list .footer__connect .footer__connect--list img {
   width: 30px;
   height: 30px;
+}
+
+footer.footer .footer__container .footer__payments {
+  width: 96%;
+  margin: 0px auto;
+  padding: 30px 0px;
+  background-color: #fbfbfb;
+}
+
+footer.footer .footer__container .footer__payments--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer.footer .footer__container .footer__payments--wrapper .footer__payments--left {
+  width: 50%;
+}
+
+footer.footer .footer__container .footer__payments--wrapper .footer__payments--left img {
+  display: block;
+  width: 100%;
+}
+
+footer.footer .footer__container .footer__payments--wrapper .footer__payments--right {
+  width: 50%;
+  text-align: right;
+}
+
+footer.footer .footer__container .footer__payments--wrapper .footer__payments--right .footer__payments--img img {
+  width: 230px;
+  height: 87px;
 }
 
 html {
