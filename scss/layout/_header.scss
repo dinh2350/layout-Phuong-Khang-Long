@@ -53,5 +53,21 @@ header.header {
     }
   }
   section.header__nav {
+    background-color: #1c0878;
+    nav {
+      ul {
+        display: flex;
+
+        li {
+          padding: 0px 15px;
+          a {
+            font-size: 18px;
+            display: block;
+            padding: 10px 0px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
   }
 }

@@ -1,0 +1,33 @@
+.banner {
+  .banner__container {
+    .banner__slick {
+      .banner__item {
+        height: 100vh;
+        img {
+          width: 100% !important;
+          height: 100%;
+        }
+      }
+    }
+    .slick-prev {
+      transform: translateX(100%);
+    }
+    .slick-next {
+      transform: translateX(-100%);
+    }
+    .slick-arrow {
+      z-index: 1000;
+      width: 30px;
+      height: 30px;
+      &::before {
+        font-size: 30px;
+        color: #446084;
+      }
+      &:hover {
+        &::before {
+          color: #446084;
+        }
+      }
+    }
+  }
+}

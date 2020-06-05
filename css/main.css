@@ -62,6 +62,61 @@ header.header section.header__content div.header__content--wrapper .header__righ
   height: 20px;
 }
 
+header.header section.header__nav {
+  background-color: #1c0878;
+}
+
+header.header section.header__nav nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header.header section.header__nav nav ul li {
+  padding: 0px 15px;
+}
+
+header.header section.header__nav nav ul li a {
+  font-size: 18px;
+  display: block;
+  padding: 10px 0px;
+  color: #ffffff;
+}
+
+.banner .banner__container .banner__slick .banner__item {
+  height: 100vh;
+}
+
+.banner .banner__container .banner__slick .banner__item img {
+  width: 100% !important;
+  height: 100%;
+}
+
+.banner .banner__container .slick-prev {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.banner .banner__container .slick-next {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.banner .banner__container .slick-arrow {
+  z-index: 1000;
+  width: 30px;
+  height: 30px;
+}
+
+.banner .banner__container .slick-arrow::before {
+  font-size: 30px;
+  color: #446084;
+}
+
+.banner .banner__container .slick-arrow:hover::before {
+  color: #446084;
+}
+
 html {
   font-size: 16px;
 }
