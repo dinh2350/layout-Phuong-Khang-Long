@@ -333,7 +333,6 @@ header.header section.header__nav nav ul li a {
 }
 
 .report {
-  margin-bottom: 100vh;
   background-color: #ecd7fe;
   padding: 30px 0px;
 }
@@ -432,6 +431,71 @@ header.header section.header__nav nav ul li a {
 .report .report__container .report__form .report__form-group label input[type="radio"]:checked + span:before {
   -webkit-box-shadow: inset 0px 0px 0px 20px red;
           box-shadow: inset 0px 0px 0px 20px red;
+}
+
+footer.footer {
+  margin-bottom: 100vh;
+}
+
+footer.footer .footer__container .footer__main {
+  padding: 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #1c0878;
+}
+
+footer.footer .footer__container .footer__main h3.footer__title {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+footer.footer .footer__container .footer__main .footer__category ul li,
+footer.footer .footer__container .footer__main .footer__list ul li {
+  padding: 10px 0px;
+  color: #fff;
+}
+
+footer.footer .footer__container .footer__main .footer__category ul li a,
+footer.footer .footer__container .footer__main .footer__list ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+}
+
+footer.footer .footer__container .footer__main .footer__category ul li a span,
+footer.footer .footer__container .footer__main .footer__list ul li a span {
+  color: #fff;
+  margin-right: 40px;
+}
+
+footer.footer .footer__container .footer__main .footer__category ul li a img,
+footer.footer .footer__container .footer__main .footer__list ul li a img {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+footer.footer .footer__container .footer__main .footer__category .footer__connect h3,
+footer.footer .footer__container .footer__main .footer__list .footer__connect h3 {
+  margin-top: 15px;
+}
+
+footer.footer .footer__container .footer__main .footer__category .footer__connect .footer__connect--list img,
+footer.footer .footer__container .footer__main .footer__list .footer__connect .footer__connect--list img {
+  width: 30px;
+  height: 30px;
 }
 
 html {
